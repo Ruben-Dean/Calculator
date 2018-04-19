@@ -11,8 +11,8 @@ public class SubtractorTest {
 	@Test
 	public void test() {
 		subtractor = new Subtractor();
-		int expectedValue = 4;
-		int actualValue = Subtractor.subtract(2,2);
+		int expectedValue = 5;
+		int actualValue = Subtractor.subtract(2,3);
 		Assert.assertEquals(expectedValue, actualValue );
 	}
 
