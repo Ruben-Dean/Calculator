@@ -12,6 +12,7 @@ import org.junit.Test;
 public class AdderTest {
 	
 	private Adder adder;
+	
 	@Test
 	public void test() {
 		adder = new Adder();
@@ -19,5 +20,7 @@ public class AdderTest {
 		int actualValue = adder.Add(2,2);
 		Assert.assertEquals(expectedValue, actualValue );
 	}
+	
+	
 
 }
